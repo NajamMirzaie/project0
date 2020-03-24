@@ -1,0 +1,114 @@
+body{
+   background-image: url("addmis.jpg");
+    background-repeat: no-repeat, repeat;
+     background-size: cover
+}
+h1{
+  font-size: 35px;
+  margin-left: 50px;
+  color: brown;
+}
+input[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ce3cb8;
+
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=textarea]{
+  width: 49%;
+  height: 300px;
+  background-color: #ce3cb8;
+}
+
+div {
+  border-radius: 5px;
+  padding: 50px;
+  padding-right: 300px;
+  color: white;
+}
+input[type=number]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ce3cb8;
+}
+input[type=Email]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ce3cb8;
+}
+.button {
+  overflow: hidden;
+  font-size: 30px;
+}
+.button a {
+  color: red;
+  padding: 14px 16px;
+  font-size: 25px;
+  transition: transform .2s;
+}
+.button a:hover {
+  transform: scale(1.5);
+  color: green;
+}
+.button a.active {
+  background-color: #4CAF50;
+}
+
+@media (max-width: 600px) {
+  .button a {
+    color: yellow;
+  }
+  body{
+     background-image: url("addmis.jpg");
+      background-repeat: no-repeat, repeat;
+       background-size: cover
+     }
+     input[type=text]{
+       width: 150px;
+     }
+     input[type=submit]{
+       width: 100px;
+     }
+     input[type=textarea]{
+       width: 140px;
+     }
+     input[type=number]{
+       width: 150px;
+     }
+     input[type=Email]{
+       width: 150px;
+     }
+
+
+}

@@ -1,0 +1,57 @@
+body{
+  background-color: #dd79ce;
+  padding: 0;
+}
+header{
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.button {
+  overflow: hidden;
+  float: right;
+  font-size: 30px;
+}
+.button a {
+  color: red;
+  padding: 14px 16px;
+  font-size: 25px;
+  transition: transform .2s;
+}
+.button a:hover {
+  transform: scale(1.5);
+  color: green;
+}
+.button a.active {
+  background-color: #4CAF50;
+}
+
+@media (max-width: 600px){
+  h1{
+    font-size: 25px;
+  }
+  header{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
